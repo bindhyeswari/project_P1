@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+
+        body {
+            font: 300 16px 'Helvetica Neue';
+        }
+
+        #img_google_logo {
+            width: 116px;
+            height: 38px;
+        }
+
+        div.center_align {
+            text-align: center;
+        }
+
+        div.class1 {
+            font-family: "Helvetica Neue";
+            font-weight: 300;
+            color: #555555;
+            font-size: 38px;
+        }
+
+        div.center_div {
+            padding: 20px;
+            width: 500px;
+            background-color: #d5d5d5;
+            margin: 0 auto;
+        }
+
+        .display_center {
+            margin: 0 auto;
+            text-align: center;
+
+        }
+
+        div.avatar {
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        #avatar {
+            height: 96px;
+            width: 96px;
+            border-radius: 48px;
+        }
+
+        button {
+            /*todo: make the button blue, change color on hover*/
+            border: 1px solid blue;
+            font: 300 1em 'Helvetica Neue';
+        }
+
+        button:hover {
+            background-color: #4977ff;
+        }
+
+        input[type="text"], input[type="password"] {
+            font: 300 16px 'Helvetica Neue';
+        }
+
+        a.need_help {
+            float: right;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+<div class="center_align">
+    <img id="img_google_logo" src="logo.png" alt="Google Logo"/>
+</div>
+
+<div class="center_align class1">One account. All of Google.</div>
+<div class="center_align">Sign in to continue to Gmail</div>
+<div class="center_div">
+    <!-- Box portion for sign in -->
+    <div class="display_center avatar">
+        <img id="avatar" src="avatar.png" alt=""/>
+    </div>
+    <div class="center_align">
+        <input type="text"/>
+    </div>
+    <div class="center_align">
+        <input type="password"/>
+    </div>
+    <div class="center_align">
+        <button>Sign In</button>
+    </div>
+    <div>
+        <input type="checkbox" id="checkbox1"/>
+        <label for="checkbox1">Stay Signed In</label>
+        <a class="need_help" href="http://facebook.com">Need Help?</a>
+    </div>
+
+</div>
+
+<div>
+    <a href="http://facebook.com">Create an account</a>
+</div>
+<div>
+    One Google Account for everything Google
+</div>
+
+</body>
+</html>
